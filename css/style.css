@@ -129,6 +129,9 @@ header{
     max-width: 1340px;
     margin: auto;
     padding-top: 70px;
+   
+
+  
     .art1{
         display: flex;
 
@@ -175,13 +178,17 @@ header{
                 vertical-align: middle;
     
             }
+        a{
+        color: var(--color2);
+        background-color: var(--color1);
+        border-color: var(--color2);
+        padding: 10px;
+        z-index: 3;
         }
         .art2{
             margin-top: 80px;
             padding-top: 40px;
             display: flex;
-          
-
             .image2{
             display: block;
             width: 60%;
@@ -213,12 +220,18 @@ header{
                         font-weight: 400;
                         font-size: 16px;
                         vertical-align: middle;
-            
                     }
+                    a{
+                        color: var(--color2);
+                        background-color: var(--color1);
+                        border-color: var(--color2);
+                        padding: 10px;
+                        z-index: 3;
+                
+                        }
+                   
 
-        }
-
-    
+      
 }
 
 footer{
