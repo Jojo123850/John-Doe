@@ -74,6 +74,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 20px;
+    padding-top: 40px;
     
     .header0{
           font-family: "Open Sans", sans-serif;
@@ -165,6 +166,7 @@ button:hover{
     align-items: center;
     justify-content: end;
     transition: all .4s;
+     z-index: 5;
     /* background: rgba(77, 77, 77, .7); */
 }
 
