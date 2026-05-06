@@ -409,6 +409,7 @@ background: white;
 #section4{
     max-width: 1440px;
     margin: auto;
+    padding-top: 60px;
     .sec3a{
          color: var(--color2);
         background-color: var(--color1);
@@ -449,8 +450,8 @@ background: white;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 40px;
+          
             .div00{
-                margin-top: 100px;
                 border: 1px solid;
                 border-color: var(--color2);
                 padding: 20px;
@@ -535,9 +536,8 @@ footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    article:nth-child(3){
+    article:nth-last-of-type(1){
         grid-column: 1/-1;
-        margin-top: -100px;
     }
 }
 

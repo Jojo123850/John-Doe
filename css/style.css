@@ -543,6 +543,7 @@ footer{
             justify-self: center;
             .image1,.div1, .div2, .image2{
                 transform: none;
+                justify-self: center;
             }
             .div1,.div2{
                 margin-top: -20px;
