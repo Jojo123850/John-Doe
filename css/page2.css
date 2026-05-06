@@ -16,6 +16,11 @@ body{
     max-width: 1920px;
     margin: auto;
 }
+main{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 #burgerMenu{
     display: none;
 }
@@ -188,14 +193,12 @@ background: white;
     background-color: var(--color4);
     height: 430px;
     margin-top: 30px;
-    
-    div{
-        align-content: center;
-        justify-self: center;
-        text-align: center;
-        padding: 160px;
-       
+    justify-content: center;
+    align-items: center;
+        div{
+         padding: 115px 20px; 
     }
+    
     p{
         padding-top: 40px;
     }
@@ -218,6 +221,7 @@ background: white;
         margin-top: 40px;
         padding-bottom: 100px;
         padding-top: 180px;
+        text-align: justify;
    
     h1{
         font-weight: 700;
@@ -531,21 +535,12 @@ footer{
 }
 
 @media screen and (max-width:767px) {
-     header{
-         padding: 20px;
-
-    }
     #burgerMenu{
         display: block;
         color: var(--color2);
     }
     nav{
         display: none;
-    }
-    #section0{
-        div{
-            padding: auto;
-        }
     }
     #section1{
         display: grid;
@@ -557,7 +552,6 @@ footer{
             width: 100%;
         }
         img{
-            object-fit: contain;
             align-self: center;
             margin-top: 70px;
         }
