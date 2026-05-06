@@ -23,9 +23,9 @@
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="#">Qui suis-je?</a></li>
+                <li><a href="#section1">Qui suis-je?</a></li>
                 <li><a href="page2.html">Ma formation</a></li>
-                <li><a href="page2.html#section3">Mes compétences</a></li>
+                <li><a href="#section3">Mes compétences</a></li>
                 <li><a href="page3.html">Mes projets</a></li>
                 <li class="contact"><a href="#formulaire">Contacte-moi</a></li>
             </ul>
@@ -34,13 +34,15 @@
     <div id="formulaire" class="modal">
         <div class="modal_content">
             <form action="#">
-                <h1>Me contacter</h1>
-                <label for="nom" >Nom :</label>
-                <input type="text" name="nom" id="f-nom" placeholder="Votre nom">
+                <h2>Me contacter</h2>
+                <label for="nom">Nom :</label>
+                <input type="text" name="nom" id="nom" placeholder="Votre nom">
+
                 <label for="email">Email :</label>
-                <input type="text"placeholder="Votre mail"> 
-                <label for="text">Votre message: </label> 
-                <textarea id="demande"  placeholder="Votre message" required></textarea>
+                <input type="email" id="email" name="email" placeholder="Votre mail">
+
+                <label for="demande">Votre message :</label>
+                <textarea id="demande" name="message" placeholder="Votre message" required></textarea>
                 <button type="submit">Envoyer la demande</button>    
             </form>
             <a href="#" class="modal_close"><i class="fa-solid fa-xmark"></i></a>
