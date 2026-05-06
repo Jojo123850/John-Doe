@@ -15,6 +15,7 @@ body{
     background-color: var(--color1);
     max-width: 1920px;
     margin: auto;
+    overflow-x: hidden;
 }
 main{
     justify-content: center;
@@ -69,6 +70,7 @@ header{
     max-width: 1470px;
     margin: auto;
     display: flex;
+    padding: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 20px;
@@ -262,6 +264,7 @@ background: white;
     max-width: 1340px;
     margin: auto;
     padding-top: 70px;
+    overflow-x: hidden;
    
 
   
@@ -408,6 +411,7 @@ background: white;
 /* SECTION 3 */
 #section4{
     max-width: 1440px;
+    padding: 20px;
     margin: auto;
     padding-top: 60px;
     .sec3a{

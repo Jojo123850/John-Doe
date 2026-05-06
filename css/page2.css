@@ -68,6 +68,7 @@ color: var(--color4);
 header{
     max-width: 1470px;
     margin: auto;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -207,6 +208,7 @@ background: white;
 #section1{
     max-width: 1440px;
     margin: auto;
+    padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 40px;
@@ -409,6 +411,7 @@ background: white;
 #section4{
     max-width: 1440px;
     margin: auto;
+    padding: 20px;
     .sec3a{
          color: var(--color2);
         background-color: var(--color1);
