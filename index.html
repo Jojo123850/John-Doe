@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&family=Supermercado+One&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -26,9 +27,26 @@
                 <li><a href="#">Ma formation</a></li>
                 <li><a href="#">Mes compétences</a></li>
                 <li><a href="#">Mes projets</a></li>
-                <li class="contact"><a href="#">Contacte-moi</a></li>
+                <li class="contact"><a href="#formulaire">Contacte-moi</a></li>
             </ul>
-        </nav>
+    </nav>
+    <i id="burgerMenu" class="fa-solid fa-bars"></i>
+    <div id="formulaire" class="modal">
+        <div class="modal_content">
+            <form action="#">
+                <h1>Me contacter</h1>
+                <label for="nom" >Nom :</label>
+                <input type="text" name="nom" id="f-nom" placeholder="Votre nom">
+                <label for="email">Email :</label>
+                <input type="text"placeholder="Votre mail"> 
+                <label for="text">Votre message: </label> 
+                <textarea id="demande"  placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer la demande</button>    
+            </form>
+            <a href="#" class="modal_close"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+
+    </div>
 
     </header>
     <main>
@@ -37,7 +55,7 @@
                 <h1>John Doe - Développeur web
                 et web mobile</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium unde amet adipisci excepturi. Dolor velit quisquam architecto libero doloribus tempora iure, dignissimos sint blanditiis quasi fuga eius qui quidem amet! <br> <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, maiores. Rerum eos, itaque suscipit et ducimus, nesciunt quam aliquam ullam consequuntur veritatis sunt nostrum adipisci neque impedit, delectus placeat debitis. <br> <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet delectus facilis officiis aperiam quisquam qui expedita modi dicta perspiciatis corrupti animi nobis, assumenda reiciendis ex nesciunt nisi molestiae voluptatem doloremque. <br> <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam illo alias quibusdam corporis atque, labore commodi reiciendis, voluptatibus accusantium nulla nisi ex perspiciatis repellendus magnam odio dolor saepe et repudiandae!</p>
-                <a href="#">Contact-moi</a>
+                <a href="#formulaire">Contact-moi</a>
             </div>
             <img src="img/moi.png" alt="img1">
         </section>
