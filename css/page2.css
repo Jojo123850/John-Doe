@@ -201,7 +201,9 @@ background: white;
         div{
          padding: 115px 20px; 
     }
-    
+    h1{
+        padding-top: 40px;
+    }
     p{
         padding-top: 40px;
     }
@@ -460,6 +462,9 @@ background: white;
                 border-color: var(--color2);
                 padding: 20px;
                 position: relative;
+                .lorm{
+                    text-align: justify;
+                }
 
             }
             .front{
@@ -480,6 +485,7 @@ background: white;
                 font-size: 21px;
                 padding-top:20px;
                 padding-bottom: 20px;
+                text-align: justify;
             }
         }
 }

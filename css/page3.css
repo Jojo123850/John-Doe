@@ -202,6 +202,9 @@ background: white;
         div{
          padding: 115px 20px; 
     }
+    h1{
+        padding-top: 40px;
+    }
     
     p{
         padding-top: 40px;
@@ -472,6 +475,9 @@ background: white;
                 left: 40px;
                margin-top: 20px;
             }
+             .lorm{
+                    text-align: justify;
+                }
 
             img{
                 width: 100%;
@@ -482,6 +488,7 @@ background: white;
                 font-size: 21px;
                 padding-top:20px;
                 padding-bottom: 20px;
+                text-align: justify;
             }
         }
 }
@@ -598,6 +605,10 @@ footer{
         .div00{
             margin-top: 0;
            border-style: none;
+
+           p{
+            text-align: justify;
+           }
         }
         .sec31{
             margin-top: 10px;
